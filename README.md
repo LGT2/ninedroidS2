@@ -1,5 +1,5 @@
 # ninedroidS2
-This project is a Hack of the Ninedroid.apk android application (from Ninebot) to allowi it to run on small screen devices such as Galaxy S2
+This project is a Hack of the Ninedroid.apk android application (from Ninebot) to enable it to run on small screen devices such as Galaxy S2
 
 USAGE: ./patch-build-install.bash    in a linux console  (Use a linux VM if you are under a proprietary OS)
 
