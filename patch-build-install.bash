@@ -12,7 +12,7 @@ fi
 
 if [ ! -f tools/apktool.jar ]; then
 	pushd tools
-	wget https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.0.1.jar -O apktool.jar
+	wget http://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.0.1.jar -O apktool.jar
 	popd tools
 fi
 
