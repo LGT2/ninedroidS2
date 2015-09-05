@@ -8,6 +8,8 @@ Unfortunately it is not running on my Samsung Galaxy S2, which runs a Cyanogenmo
 
 I followed instruction from the french paper magazine Gnu Linux Magazine France No 184.  (GLMF 184)
 Thus I use apktool.jar to decompile->patch->recompile, and I also use signapk.jar to ensure direct installation to my GS2.
+	Infos here: http://ibotpeaches.github.io/Apktool/
+	and here: http://www.learn2crack.com/2014/02/sign-android-apk-zip.html
 
 This project is the result of my little hack:
 - it allows the application to run on my GSII , with android 4.3.1 (Cyanogen 10.2) 
