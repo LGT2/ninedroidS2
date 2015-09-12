@@ -16,13 +16,13 @@ if [ ! -f tools/apktool.jar ]; then
 	popd tools
 fi
 
-if [ ! -f tools/signapk.jar ]; then
+if [ ! -f tools/SignApk/signapk.jar ]; then
 	pushd tools
 	wget http://www.learn2crack.com/download/SignApk.zip -O SignApk.zip
 	popd
 fi
 
-if [[ ! -f tools/signapk.jar && -f tools/SignApk.zip ]]; then
+if [[ ! -f tools/SignApk/signapk.jar && -f tools/SignApk/SignApk.zip ]]; then
 	pushd tools
 	unzip -o SignApk.zip
 	popd
@@ -37,8 +37,13 @@ echo ==========================
 echo Patching App
 echo ==========================
 pushd Ninedroid
-#find -type f -iname "*.xml" -print0 | xargs -0 -t -n 1 bash ../tools/reduc.bash
-bash ../tools/reducjauges.bash res/layout/activity_item_nbgauge.xml
+mv res/values/styles.xml res/values/styles.excluded
+mv res/values-v11/styles.xml res/values-v11/styles.excluded
+find -type f -iname "*.xml" -print0  | xargs -0 -t -n 1 bash ../tools/reduc.bash
+mv res/values/styles.excluded res/values/styles.xml
+mv res/values-v11/styles.excluded res/values-v11/styles.xml
+#bash ../tools/reduc.bash res/layout/activity_item_nbgauge.xml
+#bash ../tools/reduc.bash res/layout/item_light_setting_one.xml
 bash ../tools/allowstart.bash smali/cn/ninebot/ninedroid/BaseApplication.smali
 popd
 
