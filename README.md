@@ -12,9 +12,10 @@ Unfortunately the app is crashing on my Samsung Galaxy S2, which runs a Cyanogen
 This project is the result of my little hack:
 - it allows the application to run on my GSII , with android 4.3.1 (Cyanogen 10.2) 
 - It reduces the visual widgets so that the "Lock" button and the "Speed Limiter" are visible.
+- All screens are now reduced by 80% compared to original App
 
 Todo:
-- Reduces the color selection screen, in order to see the whole 4 color choosers (instead of 2 only at the moment).
+- Maybe complete transalation, where ninebot negligted to complete the task ...
 
 
 It will :
