@@ -22,7 +22,7 @@ if [ ! -f tools/SignApk/signapk.jar ]; then
 	popd
 fi
 
-if [[ ! -f tools/SignApk/signapk.jar && -f tools/SignApk/SignApk.zip ]]; then
+if [[ ! -f tools/SignApk/signapk.jar && -f tools/SignApk.zip ]]; then
 	pushd tools
 	unzip -o SignApk.zip
 	popd
