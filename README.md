@@ -15,7 +15,7 @@ This project is the result of my little hack:
 - All screens are now reduced by 80% compared to original App
 
 Todo:
-- Maybe complete transalation, where ninebot negligted to complete the task ...
+- Maybe complete translation, where ninebot negligted to complete the task ...
 
 
 It will :
