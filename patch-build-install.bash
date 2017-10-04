@@ -12,13 +12,13 @@ fi
 
 if [ ! -f tools/apktool.jar ]; then
 	pushd tools
-	wget http://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.0.1.jar -O apktool.jar
+	wget https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.3.0.jar -O apktool.jar
 	popd tools
 fi
 
 if [ ! -f tools/SignApk/signapk.jar ]; then
 	pushd tools
-	wget http://www.learn2crack.com/download/SignApk.zip -O SignApk.zip
+	wget https://bit.ly/2cGAcIx -O SignApk.zip
 	popd
 fi
 
