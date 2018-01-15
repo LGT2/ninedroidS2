@@ -1,6 +1,6 @@
 # ninedroidS2
 -Update-
-As the original Ninedroid.apk is not available from ninebot anymore, this project is now just a of how to hack resources without recompiling. Links to tools updated.
+As the original Ninedroid.apk is not available from ninebot anymore, this project is now just a "how-to" hack resources without recompiling. Links to tools updated.
 
 This project is a Hack of the Ninedroid.apk android application (from Ninebot) to enable it to run on small screen devices such as Galaxy S2
 
